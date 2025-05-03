@@ -85,6 +85,16 @@ For each SNP, you’ll need four primers:
 
 You don't need to specify input or output files as command-line arguments. The filenames are set directly in the script.
 
+## 🔭 Scope
+
+This tool is intended **only for designing inner primers** for allele-specific SNP detection.  
+**Outer primers** should be designed using tools such as:
+
+- [IDT PrimerQuest Tool](https://www.idtdna.com/Primerquest)
+- [Primer3](http://primer3.ut.ee/)
+
+---
+
 ### Example:
 
 1. Place your input file as `sequences.csv` (or other suitable format).
